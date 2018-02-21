@@ -5,3 +5,4 @@ when array.length == 1
 when array.length == 2
   array.join("and")
 end
+end
