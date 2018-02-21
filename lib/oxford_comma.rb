@@ -6,5 +6,7 @@ elsif array.length == 2
 elsif array.length == 3
   array[2] = "and #{array[2]}"
   array.join(", ")
-end
+elsif array.length > 3
+  array.last = "and #{array.last}"
+  array.join(", ")
 end
